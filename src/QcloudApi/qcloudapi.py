@@ -97,7 +97,7 @@ class QcloudApi:
         self.config['method'] = method
 
     def setRegion(self, region):
-        self.config['region'] = region
+        self.config['Region'] = region
 
     def generateUrl(self, action, params):
         service = self._factory(self.module, self.config)
